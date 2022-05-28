@@ -1,0 +1,37 @@
+name: github pages
+
+on:
+  push:
+    branch:
+      - 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Setup dependencies
+        run: pip install jinja2
+      
+      - name: Create output folder
+        run: mkdir dist
+
+      - name: Process files
+        run: PYTHONPATH=scripts python scripts/main.py plugins dist "https://DMXControl.github.io/DMXCPluginLibrary"
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+      
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist/

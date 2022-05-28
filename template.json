@@ -1,0 +1,23 @@
+{
+    "name": "Plugin Template",
+    "author":"DMXC TESTER",
+    "short-desc": "Short Plugin Description",
+    "desc": "Long description in **Markdown**\nMultiline should also work...\nUse escape sequences for linebreaks",
+    "license": "MIT",
+    "url": "https://github.com/irgendwas/releases/plugintemplate",
+    "icon-url": "https://github.com/irgendwas/releases/plugintemplate/icon.png",
+    "versions": [
+        {
+            "version": "1.0",
+            "dmxc-version": ["3.1"],
+            "url": "https://github.com/irgendwas/releases/plugintemplate/v1",
+            "hash": "$SHA256$9c6573c510cd99...41d90add3b012f0f00aa7b"
+        },
+        {
+            "version": "1.1",
+            "dmxc-version": ["3.2", "3.2.1"],
+            "url": "https://github.com/irgendwas/releases/plugintemplate/v1_1",
+            "hash": "$SHA256$89da7ea3285077736...974944cde1086c3d6b7"
+        }
+    ]
+}
