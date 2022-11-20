@@ -4,7 +4,7 @@
     "short-desc": "DMXControl 3.x Plugin to control DMXControl3.x with 3Dconnexion devices.",
     "desc": "This plugin allows you to control DMXControl3.x with 3Dconnexion devices.",
     "license": "MIT",
-    "url": "https://github.com/DMXControl/3Dconnexion-dmxc3-plugin",https://github.com/DMXControl/3Dconnexion-dmxc3-plugin/blob/master/3DxIcon_32.png.bin?raw=true
+    "url": "https://github.com/DMXControl/3Dconnexion-dmxc3-plugin",
     "icon-url": "https://raw.githubusercontent.com/DMXControl/3Dconnexion-dmxc3-plugin/master/3DxIcon.png",
     "versions": [
         {
