@@ -1,0 +1,17 @@
+{
+    "name": "Nanoleaf Plugin",
+    "author":"Patrick Grote (DMXControl)",
+    "short-desc": "Plugin to integrate Nanoleafs into DMXControl 3.x",
+    "desc": "This plugin allows you to control Nanoleaf panels with the freeware DMXControl 3.x. So you can integrate the panels in complex and extensive light shows and setups. Just right for your streaming studio. ",
+    "license": "MIT",
+    "url": "https://github.com/DMXControl/Nanoleaf-dmxc3-Plugin",
+    "icon-url": "https://github.com/DMXControl/Nanoleaf-dmxc3-Plugin/raw/v3.2.3/NanoleafGUI-Plugin/Resources/128/Nanoleaf.png",
+    "versions": [
+        {
+            "version": "3.2.3 - 1.0",
+            "dmxc-version": ["3.2.3"],
+            "url": "https://github.com/DMXControl/Nanoleaf-dmxc3-Plugin/releases/download/v3.2.3/Nanoleaf-Plugin.zip",
+            "hash": "$SHA256$437AC97AEBAE759B7E1BA352FBF5CE2544844856ACAC8E7FA5041C439684679E"
+        }
+    ]
+}
