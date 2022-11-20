@@ -2,7 +2,7 @@ name: github pages
 
 on:
   push:
-    branch:
+    branches:
       - 'main'
 
 jobs:
