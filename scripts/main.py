@@ -15,7 +15,8 @@ from jinja2 import Environment, select_autoescape
 def main(infolder: str, outfolder: str, url: str, verbose: bool):
     parser = PluginParser(infolder)
 
-    os.mkdir(os.path.join(outfolder, "plugins"))
+    if not os.path.exists(os.path.join(outfolder, "plugins")):
+        os.mkdir(os.path.join(outfolder, "plugins"))
     print("Parsing plugins...")
 
     versions = dict()
@@ -38,11 +39,11 @@ def main(infolder: str, outfolder: str, url: str, verbose: bool):
     if verbose:
         print("Writing output files")
 
-    version = dict()
+    version = []
     htmldata = []
     for ver in versions:
         timestamp = datetime.now(timezone.utc).isoformat()
-        version[ver.name] = timestamp
+        version.append({"version": ver.name, "timestamp": timestamp})
         output = {"version": ver.name, "timestamp": timestamp,
                   "plugins": [plugin for plugin in versions[ver]]}
         htmldata.append(
