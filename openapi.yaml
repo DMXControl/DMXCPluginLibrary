@@ -45,8 +45,7 @@ paths:
                     "author": "Arne Lüdtke (DMXControl)",
                     "license": "MIT",
                     "icon-url": "https://raw.githubusercontent.com/DMXControl/3Dconnexion-dmxc3-plugin/master/3DxIcon.png",
-                    "details": "https://DMXControl.github.io/DMXCPluginLibrary/plugins/3dconnexion.json"
-                    }]}
+                    "details": "https://DMXControl.github.io/DMXCPluginLibrary/plugins/3dconnexion.json" }]}
 
   /plugins/{pluginname}.json:
     get:
