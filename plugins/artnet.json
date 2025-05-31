@@ -8,9 +8,9 @@
     "icon-url": "https://github.com/DMXControl/ArtNet-dmxc3-Plugin/raw/main/ArtNet4-Plugin/Resources/Art-Net%20Master%20Logo.gif",
     "versions": [
         {
-            "version": "3.3.0 - 1.0",
-            "dmxc-version": ["3.3.0"],
-            "url": "https://github.com/DMXControl/ArtNet-dmxc3-Plugin/releases/download/v3.3.0/ArtNet-Plugin.zip",
+            "version": "3.3.1 - 1.0",
+            "dmxc-version": ["3.3.1"],
+            "url": "https://github.com/DMXControl/ArtNet-dmxc3-Plugin/releases/download/v3.3.1/ArtNet-Plugin.zip",
             "hash": "Need To Be Set"
         }
     ]
